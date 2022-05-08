@@ -57,7 +57,7 @@ def GoogleSearch(term):
 
     writeab = str(query)
 
-    oooooo = open('E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\Data.txt','a')
+    oooooo = open('E:\\Zara\\Data.txt','a')
     oooooo.write(writeab)
     oooooo.close()
 
@@ -65,7 +65,7 @@ def GoogleSearch(term):
 
     pywhatkit.search(Query)
 
-    os.startfile('E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\DataBase\\ExtraPro\\start.py')
+    os.startfile('E:\\Zara\\DataBase\\ExtraPro\\start.py')
 
     if 'how to' in Query:
 
@@ -94,10 +94,10 @@ def YouTubeSearch(term):
 
 def Alarm(query):
 
-    TimeHere=  open('E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\Data.txt','a')
+    TimeHere=  open('E:\\Zara\\Data.txt','a')
     TimeHere.write(query)
     TimeHere.close()
-    os.startfile("E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\DataBase\\ExtraPro\\Alarm.py")
+    os.startfile("E:\\Zara\\DataBase\\ExtraPro\\Alarm.py")
 
 def DownloadYouTube():
     from pytube import YouTube
@@ -121,7 +121,7 @@ def DownloadYouTube():
         video = url.streams.first()
 
 
-        video.download('E:\\YouTube Channel\\YouTube - Zara \\How To Make Zara  In Python\\DataBase\\YouTube\\')
+        video.download('E:\\Zara\\DataBase\\YouTube\\')
 
 
     Download(Link)
@@ -132,11 +132,11 @@ def DownloadYouTube():
     Speak("You Can Go And Check It Out.")
 
 
-    os.startfile('E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\DataBase\\YouTube\\')
+    os.startfile('E:\\Zara\\DataBase\\YouTube\\')
 
 def SpeedTest():
 
-    os.startfile("E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\DataBase\\Gui Programs\\SpeedTestGui.py")
+    os.startfile("E:\\Zara\\DataBase\\Gui Programs\\SpeedTestGui.py")
 
 def DateConverter(Query):
 
@@ -150,7 +150,7 @@ def DateConverter(Query):
 
 def My_Location():
 
-    op = "https://www.google.com/maps/place/Delhi/@28.6472799,76.8130619,83757m/data=!3m2!1e3!4b1!4m5!3m4!1s0x390cfd5b347eb62d:0x37205b715389640!8m2!3d28.7040592!4d77.1024902"
+    op = "hhttps://www.google.com/maps/place/Cuttack,+Odisha/@20.4632542,85.7977048,23070m/data=!3m2!1e3!4b1!4m13!1m7!3m6!1s0x390cfd5b347eb62d:0x37205b715389640!2sDelhi!3b1!8m2!3d28.7040592!4d77.1024902!3m4!1s0x3a190d832223af81:0x22f5fa1c913be52e!8m2!3d20.4625201!4d85.8830023"
 
     Speak("Checking....")
 
