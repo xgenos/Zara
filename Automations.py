@@ -258,7 +258,7 @@ def YouTubeAuto(command):
 
     elif 'my channel' in query:
 
-        web.open("https://www.youtube.com/channel/UC7A5u12yVIZaCO_uXnNhc5g")
+        web.open("https://www.youtube.com/channel/UCiK7eb2PWlhVuyE0uCj0ZwA")
 
     else:
         Speak("No Command Found!")
@@ -437,9 +437,9 @@ def Notepad():
 
         file.write(writes)
 
-    path_1 = "E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\" + str(filename)
+    path_1 = "E:\\Zara\\" + str(filename)
 
-    path_2 = "E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\DataBase\\NotePad\\" + str(filename)
+    path_2 = "E:\\Zara\\DataBase\\NotePad\\" + str(filename)
 
     os.rename(path_1,path_2)
 
