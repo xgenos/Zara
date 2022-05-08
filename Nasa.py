@@ -45,9 +45,9 @@ def NasaNews(Date):
 
         f.write(Image_r.content)
 
-    Path_1 = "E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\" + str(FileName)
+    Path_1 = "E:\\Zara\\" + str(FileName)
 
-    Path_2 = "E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\DataBase\\NasaDataBase\\" + str(FileName)
+    Path_2 = "E:\\Zara\\DataBase\\NasaDataBase\\" + str(FileName)
 
     os.rename(Path_1, Path_2)
 
@@ -64,7 +64,7 @@ def Summary(Boby):
 
     value = random.choice(list__)
 
-    path = "E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\DataBase\\NasaDataBase\\Images Used\\" + str(value) + ".jpg"
+    path = "E:\\Zara\\DataBase\\NasaDataBase\\Images Used\\" + str(value) + ".jpg"
 
     os.startfile(path)
 
@@ -127,9 +127,9 @@ def MarsImage():
             with open(img,'wb') as file:
                 file.write(p.content)
 
-            Path_1 = "E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\" + str(img)
+            Path_1 = "E:\\Zara\\" + str(img)
 
-            Path_2 = "E:\\Y O U T U B E\\J A R V I S  S E R I E S\\H O W  T O  M A K E  J A R V I S\\DataBase\\NasaDataBase\\MarsImage\\" + str(img)
+            Path_2 = "E:\\Zara\\DataBase\\NasaDataBase\\MarsImage\\" + str(img)
 
             os.rename(Path_1,Path_2)
 
